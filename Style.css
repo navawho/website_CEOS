@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: lightgray;
+    background-color: darkgrey;
     }
 .header {
     background-color: dimgrey;
@@ -11,7 +14,7 @@ h1 {
     text-align: center;
 }
 .topnav {
-    overflow: auto;
+    overflow: hidden;
     background-color: cornflowerblue;
     position: -webkit-sticky;
     position: sticky;
@@ -32,18 +35,29 @@ h1 {
     .active {
         background-color:dimgray;
     }
-.column {
+.leftcolumn {
     float: left;
-    width: 33.33%;
+    width: 40%;
+}
+.rightcolumn {
+    float: right;
+    width: 40%;
+}
+.card {
+    background-color: dimgray;
+    padding: 250px;
+    margin-top: 20px;
+    margin-left: 0px;
 }
 .row:after{
     content: "";
     display: table;
     clear: both;
 }
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
     }
 }
 .footer {
