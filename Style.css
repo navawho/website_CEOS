@@ -1,21 +1,23 @@
 body {
     }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.header {
+    background-color: dimgrey;
+    text-align: justify;
+    padding: 10px;
+}
+h1 {
+    color:white;
+    text-align: center;
+}
+.topnav {
     overflow: auto;
     background-color: cornflowerblue;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
 }
 
-li {
+.topnav a {
     float: left;
-}
-
-li a {
     display: block;
     color: white;
     text-align: center;
@@ -23,20 +25,13 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.topnav a:hover {
     background-color: darkgrey;
 }
     .active {
         background-color:dimgray;
     }
-h1 {
-    color:white;
+.footer {
+    background-color: dimgray;
     text-align: center;
-}
-div {
-}
-.header {
-    background-color: dimgrey;
-    text-align: justify;
-    padding: 10px;
 }
