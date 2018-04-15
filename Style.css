@@ -1,4 +1,5 @@
 body {
+    background-color: lightgray;
     }
 .header {
     background-color: dimgrey;
@@ -31,6 +32,20 @@ h1 {
     .active {
         background-color:dimgray;
     }
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100
+    }
+}
 .footer {
     background-color: dimgray;
     text-align: center;
