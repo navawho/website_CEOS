@@ -1,0 +1,42 @@
+body {
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: cornflowerblue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkgrey;
+}
+    .active {
+        background-color:dimgray;
+    }
+h1 {
+    color:white;
+    text-align: center;
+}
+div {
+}
+.header {
+    background-color: dimgrey;
+    text-align: justify;
+    padding: 10px;
+}
