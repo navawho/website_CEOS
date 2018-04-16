@@ -1,66 +1,59 @@
-* {
-    box-sizing: border-box;
-}
 body {
-    background-color: darkgrey;
+    background-color: white;
     }
-.header {
-    background-color: dimgrey;
-    text-align: justify;
-    padding: 10px;
-}
 h1 {
     color:white;
     text-align: center;
 }
 .topnav {
     overflow: hidden;
-    background-color: cornflowerblue;
-    position: -webkit-sticky;
+    background-color:black;
     position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 38px 50px;
     text-decoration: none;
+    font-size: 125%;
 }
 
 .topnav a:hover {
-    background-color: darkgrey;
+    background-color: #d61717;
 }
     .active {
-        background-color:dimgray;
+        background-color:#d61717;
     }
-.leftcolumn {
-    float: left;
-    width: 40%;
+.logo {
+    position: relative;
+    height: 80px;
+    padding-left: 0.7%;
+    padding-top: 0.7%;
 }
-.rightcolumn {
-    float: right;
-    width: 40%;
+.img1 {
+    width: 100%;
 }
-.card {
-    background-color: dimgray;
-    padding: 250px;
-    margin-top: 20px;
-    margin-left: 0px;
+.image {
+    z-index: 1;
+    position: absolute 100%;
+    width: 100%;
 }
 .row:after{
     content: "";
     display: table;
     clear: both;
 }
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-        width: 100%;
-        padding: 0;
-    }
-}
 .footer {
     background-color: dimgray;
     text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .topnav {
+        background-color: lightblue;
+    }
 }

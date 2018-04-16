@@ -1,0 +1,100 @@
+Style.css
+
+body {
+    background: black;
+}   
+.header {
+    background-color: #13100f;
+     
+    padding: 10px;
+    font-variant: small-caps;
+    
+    font-weight: bold;
+}
+h1 {
+    color:white;
+    text-align: center;
+
+}
+.barra_de_pg {
+    overflow: hidden;
+    background-color: #10192b;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.barra_de_pg a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.barra_de_pg a:hover {
+    background-color: #13100f;
+}
+    
+.bloco_1{
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    max-width: 400px;
+    
+}
+
+.descrição_1 {
+    background: green;
+
+}
+.descrição_1 h2{
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+
+}
+.descrição_1 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.bloco_2 {
+
+    max-width: 400px;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+
+.descrição_2 {
+    background: green;
+}
+
+.descrição_2 h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+
+}
+
+.descrição_2 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #10192b;
+    text-align: center;
+    color: white
+}
