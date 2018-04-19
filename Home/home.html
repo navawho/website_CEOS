@@ -9,44 +9,49 @@
         <link rel="stylesheet" href="node_modules/bootstrap/compiler/Style.css">
     </head>
     <body>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-gradient-dark">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-gradient-black">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="Logo.png" width="145" height="" alt="BeFlush">
+                    <img src="Logo.png" width="150" height="" alt="BeFlush">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
+                        <li class="nav-item ml-2">
                             <a class="nav-link" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Serviços</a>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link" href="#">Produtos</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-2">
                             <a class="nav-link" href="#">Sobre</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-2">
                             <a class="nav-link" href="#">Contatos</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-2">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
                                 Social
                             </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Facebook</a>
-                                <a class="dropdown-item" href="#">Twitter</a>
-                                <a class="dropdown-item" href="#">Instagram</a>
+                            <div class="dropdown-menu my-2">
+                                <a class="dropdown-item" href="#">
+                                    <img src="Images/IconF.png">
+                                    <strong>Facebook</strong>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <img src="Images/IconI.png">
+                                    <strong>Instagram</strong>
+                                </a>
                             </div>
                         </li>
                     </ul>
                     <form class="form-inline">
-                        <input class="form-control ml-4 mr-4" type="search" placeholder="Buscar...">
-                        <button class="btn btn-danger" type="submit">Buscar</button>
+                        <input class="form-control ml-2 mr-4" type="search" placeholder="Buscar...">
+                        <button class="btn btn-danger my-2 ml-2" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -60,23 +65,23 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="Images/Esporte1.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block text-dark">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h1 class="display-3 slides">OS MELHORES ARTIGOS DE ESPORTES</h1>
+                        <p class="h5 slides">Produzimos as melhores ferramentas para te transformar em um vencedor!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="Images/Esporte2.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block text-dark">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h1 class="display-3 slides">A EMOÇÃO DE VIVER</h1>
+                        <p class="h5 slides">Nossos produtos te fazem se sentir invencível!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="Images/Esporte3.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h1 class="display-3 slides">DISPOSIÇÃO E ENERGIA</h1>
+                        <p class="h5 slides">A sua felicidade é o nosso objetivo!</p>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
@@ -89,62 +94,92 @@
                 </a>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center my-4">
-                    <h1 class="display-3">Lorem ipsum</h1>
-                    <p>Proin commodo et leo rutrum volutpat.</p>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-3">
-                    <nav id="navbarVertical" class="navbar navbar-light bg-light">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <nav class="nav nav-pills flex-column">
-                            <a class="nav-link" href="#item-1">Item 1</a>
-                            <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ml-3 my-1" href="#item-1-1">Item 1-1</a>
-                                <a class="nav-link ml-3 my-1" href="#item-1-2">Item 1-2</a>
-                            </nav>
-                            <a class="nav-link" href="#item-2">Item2</a>
-                            <a class="nav-link" href="#item-3">Item3</a>
-                            <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ml-3 my-1" href="#item-3-1">Item 3-1</a>
-                                <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
-                            </nav>
-                        </nav>
-                    </nav>
-                </div>
-                <div class="col-9">
-                    <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
-                        <h4 id="item-1">Item 1</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tortor porta leo congue, at varius sem ultricies. Nulla at vehicula justo. Donec at erat id nisl ultrices feugiat. Maecenas quis est velit. Aenean accumsan erat ipsum, quis hendrerit dui tempus ac. Cras metus velit, auctor et fringilla sit amet, iaculis et metus. Proin eget tincidunt lectus. Suspendisse potenti. Vestibulum ut urna ligula. Nulla scelerisque nibh at ante vestibulum, vitae pharetra eros commodo.</p>
-                        <h5 id="item-1-1">Item 1-1</h5>
-                        <p>Sed pretium, nulla posuere ornare bibendum, neque ex facilisis nibh, in posuere mauris purus vel dui. Vestibulum vitae venenatis metus. Pellentesque interdum sollicitudin felis, eget lobortis tortor tempus non. Proin vitae urna ultricies, viverra purus placerat, auctor diam. Cras interdum ipsum ut sapien dignissim, sit amet facilisis odio pharetra. Cras nec sapien eu magna aliquet cursus dapibus sit amet lacus. Cras ac eros finibus, tempus neque a, mattis lacus. Phasellus eget nisl tempor, commodo odio non, ultricies mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec bibendum ante sit amet libero interdum, vel placerat eros porttitor.</p>
-                        <h5 id="item-1-2">Item 2-2</h5>
-                        <p>Phasellus laoreet risus lacus, et convallis arcu ullamcorper congue. Pellentesque nibh enim, laoreet sit amet lacus non, pretium tempor augue. Ut dolor est, egestas quis efficitur id, aliquam id urna. Nullam pulvinar tempor sapien, quis feugiat lorem blandit ut. Maecenas sem nisi, convallis at velit eget, vulputate laoreet lorem. Nunc suscipit vitae nunc sed finibus. Vestibulum aliquet mauris nunc, ac eleifend nibh elementum quis. Duis dignissim interdum mauris, non tempus odio tempus vitae.</p>
-                        <h4 id="item-2">Item 2</h4>
-                        <p>Phasellus laoreet risus lacus, et convallis arcu ullamcorper congue. Pellentesque nibh enim, laoreet sit amet lacus non, pretium tempor augue. Ut dolor est, egestas quis efficitur id, aliquam id urna. Nullam pulvinar tempor sapien, quis feugiat lorem blandit ut. Maecenas sem nisi, convallis at velit eget, vulputate laoreet lorem. Nunc suscipit vitae nunc sed finibus. Vestibulum aliquet mauris nunc, ac eleifend nibh elementum quis. Duis dignissim interdum mauris, non tempus odio tempus vitae.</p>
-                        <h4 id="item-3">Item 3</h4>
-                        <p>Phasellus laoreet risus lacus, et convallis arcu ullamcorper congue. Pellentesque nibh enim, laoreet sit amet lacus non, pretium tempor augue. Ut dolor est, egestas quis efficitur id, aliquam id urna. Nullam pulvinar tempor sapien, quis feugiat lorem blandit ut. Maecenas sem nisi, convallis at velit eget, vulputate laoreet lorem. Nunc suscipit vitae nunc sed finibus. Vestibulum aliquet mauris nunc, ac eleifend nibh elementum quis. Duis dignissim interdum mauris, non tempus odio tempus vitae.</p>
-                        <h5 id="item-3-1">Item 3-1</h5>
-                        <p>Phasellus laoreet risus lacus, et convallis arcu ullamcorper congue. Pellentesque nibh enim, laoreet sit amet lacus non, pretium tempor augue. Ut dolor est, egestas quis efficitur id, aliquam id urna. Nullam pulvinar tempor sapien, quis feugiat lorem blandit ut. Maecenas sem nisi, convallis at velit eget, vulputate laoreet lorem. Nunc suscipit vitae nunc sed finibus. Vestibulum aliquet mauris nunc, ac eleifend nibh elementum quis. Duis dignissim interdum mauris, non tempus odio tempus vitae.</p>
-                        <h5 id="item-3-2">Item 3-2</h5>
-                        <p>Phasellus laoreet risus lacus, et convallis arcu ullamcorper congue. Pellentesque nibh enim, laoreet sit amet lacus non, pretium tempor augue. Ut dolor est, egestas quis efficitur id, aliquam id urna. Nullam pulvinar tempor sapien, quis feugiat lorem blandit ut. Maecenas sem nisi, convallis at velit eget, vulputate laoreet lorem. Nunc suscipit vitae nunc sed finibus. Vestibulum aliquet mauris nunc, ac eleifend nibh elementum quis. Duis dignissim interdum mauris, non tempus odio tempus vitae.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="wor m-5">
+        <div class="container-fluid">
+            <div class="row m-3">
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div class="card border-black shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="Images/Card3.jpg">
                         <div class="card-body">
-                            Proin commodo et leo rutrum volutpat. Suspendisse bibendum felis interdum, tincidunt ligula in, bibendum lacus. Nullam nunc orci, lobortis nec facilisis vel, luctus a eros. Sed vel ullamcorper nunc, ac commodo dolor. 
+                            <h5 class="text-center">Acessórios</h5>
+                            <p>Acessórios para você se desenvolver.</p>
+                            <a class="btn btn-danger text-white">SAIBA MAIS</a>
                         </div>
                     </div>
                 </div>
-                
+                <div class="col-sm-4">
+                    <div class="card border-black shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="Images/Card1.jpg">
+                        <div class="card-body">
+                            <h5 class="text-center">Equipamentos</h5>
+                            <p>Equipamentos com excelente qualidade.</p>
+                            <a class="btn btn-danger text-white">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card border-black shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="Images/Card2.jpg">
+                        <div class="card-body">
+                            <h5 class="text-center">Vestuário</h5>
+                            <p>Vestuários para enfrentar diversos ambientes.</p>
+                            <a class="btn btn-danger text-white">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
+        <div class="jumbotron jumbotron-fluid bg-dark mb-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h2 class="font-weight-bold text-danger">Tecnologia de última geração</h2>
+                        <p class="text-white">Nossos equipamentos com as melhores tecnologias do mercado para que você possa estar sempre no topo.</p>
+                    </div>
+                    <div class="col-sm-7">
+                        <img src="Images/Img1.png" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid parallax">
+            <div class="row">
+                <div class="col bg-light">
+                    <h1 class="font-weight-bold"><strong>Conforto</strong></h1>
+                    <p class="h6">Sinta-se confortável como nunca sentiu.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mb-3">
+            <div class="row">
+                <div class="col-lg-12 text-right bg-dark">
+                    <h1 class="display-3 text-white">Estilo</h1>
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-danger">Tenha estilo onde você esteja.</h1>
+                </div>
+                <div class="col-sm-6">
+                    <img src="Images/Img2.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid text-center bg-gradient-black">
+                <div class="row">
+                    <div class="col-sm-3 my-5">
+                        <img src="Logo.png" width="110" height="" alt="BeFlush">
+                    </div>
+                    <div class="col-sm-6 my-5">
+                        <p class="text-danger text-center">© 2018 Todos os direitos reservados a <strong class="font-italic">BeFlush</strong>.</p>
+                    </div>
+                    <div class="col-sm-2 my-4">
+                        <a href="#" class="btn">
+                            <img src="Images/IconF.png">
+                        </a>
+                        <a href="#" class="btn">
+                            <img src="Images/IconI.png">
+                        </a>
+                    </div>
+                </div>
+        </footer>
         <script src="node_modules/jquery/dist/jquery.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
