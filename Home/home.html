@@ -7,11 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
         <link rel="stylesheet" href="node_modules/bootstrap/compiler/Style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-gradient-black">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="Home.html">
                     <img src="Logo.png" width="150" height="" alt="BeFlush">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,30 +21,28 @@
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item ml-2">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="Home.html"><strong>Home</strong></a>
                         </li>
                         <li class="nav-item ml-2">
-                            <a class="nav-link" href="#">Produtos</a>
+                            <a class="nav-link" href="Produtos.html"><strong>Produtos</strong></a>
                         </li>
                         <li class="nav-item ml-2">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#"><strong>Sobre</strong></a>
                         </li>
                         <li class="nav-item ml-2">
-                            <a class="nav-link" href="#">Contatos</a>
+                            <a class="nav-link" href="#"><strong>Contatos</strong></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-2">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
-                                Social
-                            </a>
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop"><strong>Social</strong></a>
                             <div class="dropdown-menu my-2">
-                                <a class="dropdown-item" href="#">
-                                    <img src="Images/IconF.png">
+                                <a class="dropdown-item" href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook-square fa-2x"></i>
                                     <strong>Facebook</strong>
                                 </a>
-                                <a class="dropdown-item" href="#">
-                                    <img src="Images/IconI.png">
+                                <a class="dropdown-item" href="https://www.instagram.com/?hl=pt-br">
+                                    <i class="fab fa-instagram fa-2x"></i>
                                     <strong>Instagram</strong>
                                 </a>
                             </div>
@@ -51,7 +50,7 @@
                     </ul>
                     <form class="form-inline">
                         <input class="form-control ml-2 mr-4" type="search" placeholder="Buscar...">
-                        <button class="btn btn-danger my-2 ml-2" type="submit">Buscar</button>
+                        <button class="btn btn-danger my-2 ml-2 p-2" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -102,7 +101,7 @@
                         <div class="card-body">
                             <h5 class="text-center">Acessórios</h5>
                             <p>Acessórios para você se desenvolver.</p>
-                            <a class="btn btn-danger text-white">SAIBA MAIS</a>
+                            <a class="btn btn-danger text-white" href="#">SAIBA MAIS</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +111,7 @@
                         <div class="card-body">
                             <h5 class="text-center">Equipamentos</h5>
                             <p>Equipamentos com excelente qualidade.</p>
-                            <a class="btn btn-danger text-white">SAIBA MAIS</a>
+                            <a class="btn btn-danger text-white" href="#">SAIBA MAIS</a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +121,7 @@
                         <div class="card-body">
                             <h5 class="text-center">Vestuário</h5>
                             <p>Vestuários para enfrentar diversos ambientes.</p>
-                            <a class="btn btn-danger text-white">SAIBA MAIS</a>
+                            <a class="btn btn-danger text-white" href="#">SAIBA MAIS</a>
                         </div>
                     </div>
                 </div> 
@@ -164,18 +163,25 @@
         </div>
         <footer class="container-fluid text-center bg-gradient-black">
                 <div class="row">
-                    <div class="col-sm-3 my-5">
+                    <div class="col my-5">
                         <img src="Logo.png" width="110" height="" alt="BeFlush">
                     </div>
-                    <div class="col-sm-6 my-5">
+                    <div class="col mx-5">
+                        <p class="text-danger h4 mt-3">Institucional</p>
+                        <p class="mb-0"><a class="text-danger mb-0" href="Home.html">Home</a></p>
+                        <p class="mb-0"><a class="text-danger mb-0" href="#">Produtos</a></p>
+                        <p class="mb-0"><a class="text-danger mb-0" href="#">Sobre</a></p>
+                        <p><a class="text-danger mb-0" href="#">Contatos</a></p>
+                    </div>
+                    <div class="col my-5">
                         <p class="text-danger text-center">© 2018 Todos os direitos reservados a <strong class="font-italic">BeFlush</strong>.</p>
                     </div>
-                    <div class="col-sm-2 my-4">
-                        <a href="#" class="btn">
-                            <img src="Images/IconF.png">
+                    <div class="col my-5">
+                        <a href="#" class="text-danger mx-2">
+                            <i class="fab fa-facebook-square fa-2x"></i>
                         </a>
-                        <a href="#" class="btn">
-                            <img src="Images/IconI.png">
+                        <a href="#" class="text-danger mx-2">
+                            <i class="fab fa-instagram fa-2x"></i>
                         </a>
                     </div>
                 </div>
